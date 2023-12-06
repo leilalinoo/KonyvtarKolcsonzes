@@ -49,4 +49,9 @@ public abstract class AbstractTermek {
         return allapot;
     }
 
+    @Override
+    public String toString() {
+        return "AbstractTermek{" + "id=" + id + ", szerzo=" + szerzo + ", cim=" + cim + ", allapot=" + allapot + '}';
+    }
+
 }

@@ -15,8 +15,9 @@ public class Konyvtar {
     }
 
     public void run() {
-        //AbstractTermek term1 = new Konyv();
-        //felvesz(term1);
+        Konyv konyv1 = new Konyv("Babits", "Könyv címe", AbstractTermek.ALLAPOT.KIVALLO);
+        felvesz(konyv1);
+        System.out.println(konyv1.toString());
     }
 
     private void kolcsonozheto() {
