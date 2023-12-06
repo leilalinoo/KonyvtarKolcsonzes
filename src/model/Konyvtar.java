@@ -21,8 +21,9 @@ public class Konyvtar {
     }
 
     private void kolcsonozheto() {
-
+        //kilistázza a kölcsönözhető termékeket
     }
+    //private void termekek //kilistázza az összes terméket
 
     private void felvesz(AbstractTermek termek) {
         if (termekDb < termekek.length) {
