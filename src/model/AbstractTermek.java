@@ -1,5 +1,5 @@
 package model;
 
-public class AbstractTermek {
+public abstract class AbstractTermek {
     
 }
